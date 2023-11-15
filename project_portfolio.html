@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sayan-portfolio page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(8, 3, 28);
+            color: aquamarine;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 100%;
+            height: 53px;
+            background-color: rgb(21 15 59);
+            position: sticky;
+            top: 0px;
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 34px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: aquamarine;
+        }
+
+        nav ul li a:hover {
+            color: blueviolet;
+            font-size: 1.01rem;
+        }
+
+        main hr {
+            border: 0;
+            background: violet;
+            height: 1.2px;
+            margin: 60px 84px;
+
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 140px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+
+        }
+
+
+        .leftsection {
+            font-size: 2.5rem;
+            margin: 70px 0;
+        }
+        .leftsection.buttons{
+            padding:23px;
+        }
+
+        .leftsection .btn {
+            background: #320e75;
+            color: white;
+            padding: 5px;
+            border-radius: 6px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        .leftsection .padding{
+            padding:23px;
+        }
+
+        .rightsection img {
+            width: 58%;
+            margin: 11px 0;
+            ;
+        }
+
+        .red {
+            color: blueviolet;
+        }
+
+        #element {
+            color: blueviolet;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h2 {
+
+            font-size: 1.9rem;
+        }
+
+        .text {
+            color: violet;
+        }
+
+        .secondsection .box {
+            background-color: aquamarine;
+            width: 80vw;
+            height: 2px;
+            margin: 52px 0;
+            display: flex;
+
+
+        }
+
+        .secondsection .vertical {
+            height: 80px;
+            width: 1px;
+            background-color: aquamarine;
+            margin: 0 100px;
+        }
+
+        .imagetop {
+            width: 23px;
+            position: relative;
+            top: -27px;
+            left: -11px;
+
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 53px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 54px;
+            width: 150px;
+            font-size: 9px;
+            color: grey;
+        }
+
+        footer {
+            background-color: rgb(21 15 59);
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 123px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: grey;
+            padding: 12px 0;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sayan's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home </a></li>
+                    <li><a href="/">About </a></li>
+                    <li><a href="/">Services </a></li>
+                    <Li><a href="/">Contact Me</a></Li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My Name is <span class="red"> Sayan</span>
+
+                <div>And </div>
+                <div> I am a Full fledged</div>
+                <span id="element"></span>
+               <div class="padding">
+                <button class="btn">
+                    Downlod Resume
+                </button>
+                </div>
+
+            </div>
+            <div class="rightsection">
+                <img src="front.jpg" alt="null">
+
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text">what i have done so far</span>
+            <h2>Work Experiance</h2>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="imagetop" src=images.png alt="">
+                    <div class="vertical-title">
+                        Madhymik Examination(2019)
+                    </div>
+                    <div class="vertical-desc">
+                        i am scored 82% marks at this examination
+
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="imagetop" src=insta.webp alt="">
+                    <div class="vertical-title">
+                        Higher Secondary Examination(2020)
+                    </div>
+                    <div class="vertical-desc">
+                        i am scored 85% marks at this examination
+
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="imagetop" src=linkdin.png alt="">
+                    <div class="vertical-title">
+                        Working as a student in CEMK collage (2021-25)
+                    </div>
+                    <div class="vertical-desc">
+                        i am Persuing B.Tech degree in CSE
+
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="imagetop" src=twitter.png alt="">
+                    <div class="vertical-title">
+                        Languages Stronghold
+                    </div>
+                    <div class="vertical-desc">
+                        Besic c and java progamming Languages learn
+
+                    </div>
+
+                </div>
+                <div class="vertical">
+                    <img class="imagetop" src=iconimage.jpg alt="">
+                    <div class="vertical-title">
+                        Web Deplopment(2022-23)
+                    </div>
+                    <div class="vertical-desc">
+                        Web Deplopment and Designing skill gained
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                sayan's portfolio website..
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Help</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Help</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Help</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            copyrights &#169; www.sayansportfolio.com|allrights reserved
+
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
